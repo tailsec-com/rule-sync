@@ -1,0 +1,23 @@
+{
+  "name": "@tailsec/rule-sync",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Auto-updates Tailsec rule databases with latest CVE and vulnerability data",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "sync": "node dist/index.js sync",
+    "sync:deps": "node dist/index.js sync --scanner scan-deps",
+    "sync:license": "node dist/index.js sync --scanner scan-license"
+  },
+  "dependencies": {
+    "node-cron": "^3.0.0",
+    "p-limit": "^5.0.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
