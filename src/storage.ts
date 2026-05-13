@@ -1,3 +1,8 @@
+/**
+ * @license MIT
+ * Copyright (c) 2024 Tailsec
+ */
+
 import { writeFile, mkdir } from 'fs/promises';
 
 export async function saveRules(scanner: string, rules: any[]): Promise<void> {

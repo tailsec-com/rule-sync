@@ -1,3 +1,8 @@
+/**
+ * @license MIT
+ * Copyright (c) 2024 Tailsec
+ */
+
 import { z } from 'zod';
 
 const CVESchema = z.object({

@@ -1,3 +1,8 @@
+/**
+ * @license MIT
+ * Copyright (c) 2024 Tailsec
+ */
+
 import { fetchCVEData, fetchCriticalCVEs } from '../sources/nvd';
 import { fetchOSVByPackage } from '../sources/osv';
 import { fetchGHSACVEs } from '../sources/ghsa';

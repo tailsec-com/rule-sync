@@ -1,3 +1,8 @@
+/**
+ * @license MIT
+ * Copyright (c) 2024 Tailsec
+ */
+
 import { fetch } from 'fs/promises';
 import { saveRules } from '../storage';
 

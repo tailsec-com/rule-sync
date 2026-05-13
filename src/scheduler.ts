@@ -1,3 +1,8 @@
+/**
+ * @license MIT
+ * Copyright (c) 2024 Tailsec
+ */
+
 import cron from 'node-cron';
 
 export function scheduleSync(): void {

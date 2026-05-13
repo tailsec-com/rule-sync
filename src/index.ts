@@ -1,3 +1,8 @@
+/**
+ * @license MIT
+ * Copyright (c) 2024 Tailsec
+ */
+
 import { syncDepsRules } from './updaters/scan-deps';
 import { syncLicenseRules } from './updaters/scan-license';
 import { scheduleSync } from './scheduler';
