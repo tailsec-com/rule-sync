@@ -38,3 +38,5 @@ src/
   storage.ts   # JSON file persistence
   scheduler.ts # Cron-based scheduling
 ```
+
+[![advertisement](https://ads.servead.net/i/23bb3d8b-cc10-45bf-bf4b-1a0f4bb758f5.svg)](https://ads.servead.net/c/23bb3d8b-cc10-45bf-bf4b-1a0f4bb758f5)
